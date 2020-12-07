@@ -1,0 +1,13 @@
+test: Good morning.
+
+georgia: How are you?
+
+test: Great! Now that I have a messaging service that works on any computer or device with no contract.
+
+georgia: No contract? Then who's running the service?
+
+test: It's just a react web app installed on any server. This one happens to be on a free cloud sever I started with an email account.
+
+georgia: So, it's a messaging app that works from any computer or phone with no records or contracts with anyone.
+
+test: Yup, just an open source JavaScript web app. It takes up almost zero space since all messages are deleted permanantly by the users.

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine&family=Oswald&family=Passion+One&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Passion One", cursive;
+}
+
+.error {
+  border: #ff0000 1px solid;
+}
+
+img.logo {
+  height: auto;
+  width: 50px;
+  margin-top: 0px;
+}
+
+.loginForm {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+#settingsPanel {
+  height: 400px;
+}
+
+ul.noStyle {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+footer {
+  box-shadow: 0 -4px 3px rgba(0, 0, 0, 0.075);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+#showAlert {
+  margin-top: 10%;
+  position: fixed;
+  z-index: 150;
+  width: 100%;
+}
+
+/* START MESSAGE WEB APP CSS*/
+
+#stage {
+  min-height: 200px;
+
+  overflow-y: scroll;
+}
+
+.btn-group.form-control {
+  padding: 0px;
+}
+
+#message {
+  min-height: 100px;
+  width: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.avatarIcon {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#stage .fa-check-circle {
+  margin-top: 40%;
+}
+#activeContacts {
+  padding-right: 0px;
+}
+
+.mobileToggle {
+  width: auto;
+}
+
+@media (max-width: 1024px) {
+  img.logo {
+    position: inherit;
+    z-index: 1;
+    height: auto;
+    width: 75px;
+
+    margin-top: 0px;
+  }
+} /*end 1024*/
+
+@media (max-width: 767px) {
+  div[role="alert"] {
+    margin-top: 20%;
+  }
+
+  #stage .fa-check-circle {
+    margin-top: 0%;
+  }
+
+  .mobileToggle {
+    width: 145px;
+  }
+} /*end 767*/
