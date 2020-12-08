@@ -322,7 +322,11 @@ const Stage = (props) => {
                     key={i}
                     className="list-group-item-action  pointer list-group-item"
                     onClick={() =>
-                      selectPost(convo.uuid, convo.initiator, convo.recipient)
+                      selectPost(
+                        convo.uuid,
+                        convo.initiator.replace("-viewed", ""),
+                        convo.recipient.replace("-viewed", "")
+                      )
                     }
                     data-post={convo.uuid}
                   >
